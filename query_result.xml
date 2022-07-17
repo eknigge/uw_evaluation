@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdbaa</BlastOutput_db>
+  <BlastOutput_query-ID>Query_16943</BlastOutput_query-ID>
+  <BlastOutput_query-def>lcl|LISX01000001.1_cds_OKJ16671.1_31 [locus_tag=AMK19_00175] [protein=penicillin-binding protein] [protein_id=OKJ16671.1] [location=39730..41184]</BlastOutput_query-def>
+  <BlastOutput_query-len>1455</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_16943</Iteration_query-ID>
+  <Iteration_query-def>lcl|LISX01000001.1_cds_OKJ16671.1_31 [locus_tag=AMK19_00175] [protein=penicillin-binding protein] [protein_id=OKJ16671.1] [location=39730..41184]</Iteration_query-def>
+  <Iteration_query-len>1455</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|3UN7|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein A [Mycobacterium tuberculosis] &gt;pdb|3UN7|B Chain B, Penicillin-binding protein A [Mycobacterium tuberculosis] &gt;pdb|3UPN|A Chain A, Penicillin-binding protein A [Mycobacterium tuberculosis] &gt;pdb|3UPN|B Chain B, Penicillin-binding protein A [Mycobacterium tuberculosis] &gt;pdb|3UPO|A Chain A, Penicillin-binding protein A [Mycobacterium tuberculosis] &gt;pdb|3UPO|B Chain B, Penicillin-binding protein A [Mycobacterium tuberculosis] &gt;pdb|3UPP|A Structure of penicillin-binding protein A from M. tuberculosis: ceftrixaone acyl-enzyme complex [Mycobacterium tuberculosis H37Rv] &gt;pdb|3UPP|B Structure of penicillin-binding protein A from M. tuberculosis: ceftrixaone acyl-enzyme complex [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>3UN7_A</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>2.45027e-95</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>NPHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGL-----GNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDE-KAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLIN--ASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTA--MDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQ-EGSAGNVISTHTEHQLSQAVSPATAQKLQQLM---ESVVQHGTGTNAKIPGVTVGGKTGTAQHGQD-NSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>DPRNQRVLLDEYSRQRGQITAGGQLLAYSVATDG-RFRFLRVYPNPEVYAPVTGFYSLRYSSTALERAEDPILNGSDRRLFGRRLADFFTGRDPRGGNVDTTINPRIQQAGWDAMQQGCYGPCKGAVVALEPSTGKILALVSSPSYDPNLLASHNPEVQAQAWQRLGDNPASPLTNRAISETYPPGSTFKVITTAAALAAGATET-EQLTAAPT-IPLPGSTAQLENYGGAPCGDEPTVSLREAFVKSCNTAFVQLGIRTGADALRSMARAFGLDSPPR-PTPLQVAESTVGPIPDSAALGMTSIGQKDVALTPLANAEIAATIANGGITMRPYLVGSLKGPDLANISTTVRYQQRRAVSPQVAAKLTELMVGAEKVAQQ----KGAIPGVQIASKTGTAEHGTDPRHTPPHAWYIAFAPAQAPK-VAVAVLVENGADRLSA-TGGALAAPIGRAVIEAAL</Hsp_hseq>
+      <Hsp_midline>+P N R   D+Y+  RG I  GGQ +  S   +G R+++ R + +  +YAPVTG+ S  Y ++ LE+ ED IL+G+D RLF R   D  TG+  +GG+V TTI+P++Q+AG++ +     G  KGA VA++P TG IL LVS+PSYDP   A    + + +AW  L  +P  P+ NRA+ ETYPPGSTFK++T A A   G  ++   +T  P    LPG++  L N   +P  D    +++ A   SCNT F ++G   G D LR+ A  FG +     P     +    G  PD  A  M +IGQ D   TPL  A +AA IAN G  M PYLV   +G     IST   +Q  +AVSP  A KL +LM   E V Q        IPGV +  KTGTA+HG D     P AW++++A  Q  K VAVAV+VE+G+      +GG+LAAPI +A+++AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|3LO7|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein A [Mycobacterium tuberculosis] &gt;pdb|3LO7|B Chain B, Penicillin-binding protein A [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>3LO7_A</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.34875e-94</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>479</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>192</Hsp_identity>
+      <Hsp_positive>265</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>461</Hsp_align-len>
+      <Hsp_qseq>NPHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGL-----GNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDE-KAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLIN--ASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTA--MDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQ-EGSAGNVISTHTEHQLSQAVSPATAQKLQQLM---ESVVQHGTGTNAKIPGVTVGGKTGTAQHGQD-NSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>DPRNQRVLLDEYSRQRGQITAGGQLLAYSVATDG-RFRFLRVYPNPEVYAPVTGFYSLRYSSTALERAEDPILNGSDRRLFGRRLADFFTGRDPRGGNVDTTINPRIQQAGWDAMQQGCYGPCKGAVVALEPSTGKILALVSSPSYDPNLLASHNPEVQAQAWQRLGDNPASPLTNRAISETYPPGSTFKVITTAAALAAGATET-EQLTAAPT-IPLPGSTAQLENYGGAPCGDEPTVSLREAFVKSCNTAFVQLGIRTGADALRSMARAFGLDSPPR-PTPLQVAESTVGPIPDSAALGMTSIGQKDVALTPLANAEIAATIANGGITMRPYLVGSLKGPDLANISTTVGYQQRRAVSPQVAAKLTELMVGAEKVAQQ----KGAIPGVQIASKTGTAEHGTDPRHTPPHAWYIAFAPAQAPK-VAVAVLVENGADRLSA-TGGALAAPIGRAVIEAAL</Hsp_hseq>
+      <Hsp_midline>+P N R   D+Y+  RG I  GGQ +  S   +G R+++ R + +  +YAPVTG+ S  Y ++ LE+ ED IL+G+D RLF R   D  TG+  +GG+V TTI+P++Q+AG++ +     G  KGA VA++P TG IL LVS+PSYDP   A    + + +AW  L  +P  P+ NRA+ ETYPPGSTFK++T A A   G  ++   +T  P    LPG++  L N   +P  D    +++ A   SCNT F ++G   G D LR+ A  FG +     P     +    G  PD  A  M +IGQ D   TPL  A +AA IAN G  M PYLV   +G     IST   +Q  +AVSP  A KL +LM   E V Q        IPGV +  KTGTA+HG D     P AW++++A  Q  K VAVAV+VE+G+      +GG+LAAPI +A+++AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|4MNR|A</Hit_id>
+  <Hit_def>Crystal Structure of D,D-Transpeptidase Domain of Peptidoglycan Glycosyltransferase from Eggerthella lenta [Eggerthella lenta DSM 2243]</Hit_def>
+  <Hit_accession>4MNR_A</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>2.99729e-64</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>1371</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>VQASTWANNPHNDRTKYDKYAYPRGNI-----IVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPML-NRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTE----DCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGS----KPDGTAMDAIGQ--HDT-----------RATPLQMAMVAAAIANNGSLMEPYLVAQEGSA-GNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDG</Hsp_qseq>
+      <Hsp_hseq>VQADYYQNXPGNNHTLAKEARSERGTIATYDGVVLARSVKEEDGT------YEREYPAGDLASHVVGYSSPQFGNSGIEKAYNDTLKGEENFASWTDVLNSFAGIGTAGNDVTLTLNSKIQQAAQDALAGRKGACVVXDPDTGAILAXASAPTYNAADFAAVI---EQA----NANPDDSTLVDRAAGSLYAPGSTFKIVTLATALE-------DDVAGEDTVFSSPGTXE-IGNATVSNFNKANYGSLTLAQATELSSNTVFGQLGVEXGADKLVAGAESFGFNKEIDFPLYTPESLXPSAEDLQKSPWELAWAAAGEPVGDTTRPGRESPAGPQATVLEXAXVGTAIANDGVIXQPYLVDSVNNANGERSFSASPTKLXQAVSKTTAGRVRDVLLGVVQNGTGTAAAIPGIDVAGKTGTAEKENGND----SWFVGXAPAED-PRVVVAIVIEDG</Hsp_hseq>
+      <Hsp_midline>VQA  + N P N+ T   +    RG I     +V  ++V + D        Y+R +  G + + V GYSS  +  S +EK  +  L G ++   + + L+   G    G DV  T++ K+Q+A  + L  +KGA V  DP TGAIL   S P+Y+   FA      E+A    +++P+   L +RA    Y PGSTFK+VT ATA E        DV      +  PGT   + NA+ +     + G+ T+  A +LS NTVFG++G E G DKL A AE FGFNKE+  P+    S  PS       P   A  A G+   DT           +AT L+ A V  AIAN+G + +PYLV    +A G    + +  +L QAVS  TA +++ ++  VVQ+GTGT A IPG+ V GKTGTA+    N     +WFV  A  +D  +V VA+V+EDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|7KIS|A</Hit_id>
+  <Hit_def>Chain A, Peptidoglycan D,D-transpeptidase MrdA [Pseudomonas aeruginosa] &gt;pdb|7KIS|B Chain B, Peptidoglycan D,D-transpeptidase MrdA [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>7KIS_A</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>1.48715e-40</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>PKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHF-PSGS----------KPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVT---VGGKTGTAQ-------HGQDNSGL-----PFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>PIPGKDIVLSIDSRLQEAAENALAGRRGAIVAIQPSTGDVLAMVSQPSYDPNLFVTGI--SFKAYAELRDSIDRPLYNRVLRGLYPPGSTVKPAVALAGLDAGVVTPTSRVFD-PGYYQLPNYDHKYRNWNRYGD-GWVSLESAIYRSNDTYFYDLAHKLGIDRLHAFMSRFGFGQKVALDMFGEADGLMPSREWKRKTRRQVWYPGETLILGIGQGYMQATPIQLAQMTALLANKGHWIRPHLA--KTIDGQPPVDPDPMPDIVLRDPANWDRVDYGMQQVVHGARGTARKVGATSAYLIAGKSGTAQVVAIKQNERYDRSKLLERHRDHALFVGFAPA-NNPQIAVAVMVENGE------SGSGVAAPVVKQVMDAWL</Hsp_hseq>
+      <Hsp_midline>P  G D+V +ID ++Q+A    L  ++GA VAI P TG +L +VS PSYDP  F  G     KA+  L    ++P+ NR LR  YPPGST K   A    + G     S V D P  Y LP       N +   D G  +++ A+  S +T F  +  +LG D+L A   +FGF ++V + +  +A    PS             P  T +  IGQ   +ATP+Q+A + A +AN G  + P+L   +   G                PA   ++   M+ VV    GT  K+   +   + GK+GTAQ          D S L       A FV +A   +  Q+AVAV+VE+G       SG  +AAP+ K +M A L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|7RCZ|A</Hit_id>
+  <Hit_def>Chain A, Stage V sporulation protein D (Sporulation specific penicillin-binding protein) [Clostridioides difficile R20291] &gt;pdb|7RCZ|B Chain B, Stage V sporulation protein D (Sporulation specific penicillin-binding protein) [Clostridioides difficile R20291]</Hit_def>
+  <Hit_accession>7RCZ_A</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>9.94609e-36</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>539</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>KPKQGGDVVTTIDPKVQ-------KAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAG-------------GTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSK---PDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLV-AQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSGLPFAW---FVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>EPVQGNGLVLSIDEVIQHYTEKAVQKAYELNNAKKVTAIAMNPKTGDILALASKPDYDPNDSRTPIYPYYQEELEKYNDKDKIKGYYQMWRNP-------AVSDTYEPGSTFKLITSSSALEEGVIKDGEKFTCTGSVTVGGRKIKCWRHYRPH---GTQEFKQAVQNSCNPVFVELGSRLGVGKMYDYIESFGLMDKTGIDLPGEAKGILYNEKNVGPVELATISFGQS-ISVTPIQLITAISSIANGGDLMQPRVVKSYTDNKGNITETVKPKKVRSVISKETSKKMLEIAESVVTEGGGKIAYIPGYRLGGKTGTAQKVIDGKYAPGKYICSFVGIAPCDDPQIVVLAIVDEPTGVSA---FGSTTAGPIVKEIMNDSL</Hsp_hseq>
+      <Hsp_midline>+P QG  +V +ID  +Q       +  +E    KK  A+A++PKTG IL L S P YDP                    KD  K +  +  +P       A+ +TY PGSTFKL+T+++A E G  +     T T    +         +  P    G    + A+  SCN VF ++G+ LG  K+    E FG   +  I +  +A       K   P   A  + GQ     TP+Q+    ++IAN G LM+P +V +   + GN+  T    ++   +S  T++K+ ++ ESVV  G G  A IPG  +GGKTGTAQ   D    P  +   FV  A   D + V +A+V E     A    G + A PI K +M  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4RA7|A</Hit_id>
+  <Hit_def>Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4RA7|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469]</Hit_def>
+  <Hit_accession>4RA7_A</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>9.91057e-32</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>1365</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>PHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTST---PLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPD------GTAMDAIGQHDTRATP----LQMAMVAAAIANNGSLMEPYLVAQEGS-AGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTA--QHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVE</Hsp_qseq>
+      <Hsp_hseq>PTNNHT-IAKSAYVQRGAIITSDGVTLAESVKQDDGTYVRNYPHDGXASHTVGYISTQYGTAGIESSXNETLTGHADHSDWRSALYSXAGINTTGSSVVLTINSQXQAVAEAALQGYSGSIVVXDPSTGAVLAKASSPSYTHAELG----------TIIESGTGSQLVDRTTQALYSPGSSFKTVTLAAGIDTHK-------TTLDTTYSAPGTXEIGGGTIHNYANEDXGTIPLREAFARSSNTALAQLGVALGADNLVSYARAFGYGTALGQDFSTTPSLXPNPAEXTTWELAWASCGLPVGEHASPAGPQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAVVSTTSPKSLGQAVSADTAAQVREAXLGVVESGTGXGARVPGVKIAGKTGTADVENGNFNS-----FFIGFAP-YDHPTLVVSVVIE</Hsp_hseq>
+      <Hsp_midline>P N+ T   K AY +   I+    VT ++ V      Y R++      +   GY S  Y  + +E   +  L+G      +R+ L    G    G  VV TI+ + Q      L    G+ V  DP TGA+L   S+PSY                T ++S     +++R  +  Y PGS+FK VT A   +T K       T     Y  PGT       I+    ED G   ++ A   S NT   ++G  LG D L + A  FG+   +        S  P+ ++         +    +G+H + A P     Q A++AAAIAN G +  PY+V +  S  G V+ST +   L QAVS  TA ++++    VV+ GTG  A++PGV + GKTGTA  ++G  NS     +F+ +A   D   + V+VV+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4N1X|A</Hit_id>
+  <Hit_def>Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4N1X|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469]</Hit_def>
+  <Hit_accession>4N1X_A</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.31978e-31</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>1365</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>445</Hsp_align-len>
+      <Hsp_qseq>QGVQASTWANNPHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTST---PLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPD------GTAMDAIGQHDTRATP----LQMAMVAAAIANNGSLMEPYLVAQEGS-AGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTA--QHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVE</Hsp_qseq>
+      <Hsp_hseq>KGTENLYFQSNATNNHT-IAKSAYVQRGAIITSDGVTLAESVKQDDGTYVRNYPHDGXASHTVGYISTQYGTAGIESSXNETLTGHADHSDWRSALYSXAGINTTGSSVVLTINSQXQAVAEAALQGYSGSIVVXDPSTGAVLAKASSPSYTHAELG----------TIIESGTGSQLVDRTTQALYSPGSSFKTVTLAAGIDTHK-------TTLDTTYSAPGTXEIGGGTIHNYANEDXGTIPLREAFARSSNTALAQLGVALGADNLVSYARAFGYGTALGQDFSTTPSLXPNPAEXTTWELAWASCGLPVGEHASPAGPQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAVVSTTSPKSLGQAVSADTAAQVREAXLGVVESGTGXGARVPGVKIAGKTGTADVENGNFNS-----FFIGFAP-YDHPTLVVSVVIE</Hsp_hseq>
+      <Hsp_midline>+G +   + +N  N+ T   K AY +   I+    VT ++ V      Y R++      +   GY S  Y  + +E   +  L+G      +R+ L    G    G  VV TI+ + Q      L    G+ V  DP TGA+L   S+PSY                T ++S     +++R  +  Y PGS+FK VT A   +T K       T     Y  PGT       I+    ED G   ++ A   S NT   ++G  LG D L + A  FG+   +        S  P+ ++         +    +G+H + A P     Q A++AAAIAN G +  PY+V +  S  G V+ST +   L QAVS  TA ++++    VV+ GTG  A++PGV + GKTGTA  ++G  NS     +F+ +A   D   + V+VV+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|4JBF|A</Hit_id>
+  <Hit_def>Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4JBF|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4QJG|A Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4QJG|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R0Q|A Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R0Q|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R1G|A Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R1G|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R23|A Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R23|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R3J|A Chain A, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469] &gt;pdb|4R3J|B Chain B, Peptidoglycan glycosyltransferase [Lancefieldella parvulum DSM 20469]</Hit_def>
+  <Hit_accession>4JBF_A</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.41352e-31</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>1365</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>434</Hsp_align-len>
+      <Hsp_qseq>PHNDRTKYDKYAYPRGNIIVGGQAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLEDGILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTST---PLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPD------GTAMDAIGQHDTRATP----LQMAMVAAAIANNGSLMEPYLVAQEGS-AGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTA--QHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVE</Hsp_qseq>
+      <Hsp_hseq>PTNNHT-IAKSAYVQRGAIITSDGVTLAESVKQDDGTYVRNYPHDGXASHTVGYISTQYGTAGIESSXNETLTGHADHSDWRSALYSXAGINTTGSSVVLTINSQXQAVAEAALQGYSGSIVVXDPSTGAVLAKASSPSYTHAELG----------TIIESGTGSQLVDRTTQALYSPGSSFKTVTLAAGIDTHK-------TTLDTTYSAPGTXEIGGGTIHNYANEDXGTIPLREAFARSSNTALAQLGVALGADNLVSYARAFGYGTALGQDFSTTPSLXPNPAEXTTWELAWASCGLPVGEHASPAGPQTTVXQNAVIAAAIANGGVVXNPYIVDRVLSPEGAVVSTTSPKSLGQAVSADTAAQVREAXLGVVESGTGXGARVPGVKIAGKTGTADVENGNFNS-----FFIGFAP-YDHPTLVVSVVIE</Hsp_hseq>
+      <Hsp_midline>P N+ T   K AY +   I+    VT ++ V      Y R++      +   GY S  Y  + +E   +  L+G      +R+ L    G    G  VV TI+ + Q      L    G+ V  DP TGA+L   S+PSY                T ++S     +++R  +  Y PGS+FK VT A   +T K       T     Y  PGT       I+    ED G   ++ A   S NT   ++G  LG D L + A  FG+   +        S  P+ ++         +    +G+H + A P     Q A++AAAIAN G +  PY+V +  S  G V+ST +   L QAVS  TA ++++    VV+ GTG  A++PGV + GKTGTA  ++G  NS     +F+ +A   D   + V+VV+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|7BN9|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein 3 [Bacillus subtilis subsp. subtilis str. 168] &gt;pdb|7BN9|B Chain B, Penicillin-binding protein 3 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>7BN9_A</Hit_accession>
+  <Hit_len>662</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.77077e-31</Hsp_evalue>
+      <Hsp_query-from>313</Hsp_query-from>
+      <Hsp_query-to>1440</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>661</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>EDGILSGTDSRLFFRNTLDMLTGKP-KQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEV--TIPIRADASHFPSGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVV--QHGTGTNAKIPGVTVGGKTGTAQ---HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQA</Hsp_qseq>
+      <Hsp_hseq>EDKLRGTTGWKIYVPQTGEVIAEKKAKDGEDLHLTIDIKTQMKLYDELKDDSGAAVALQPKTGETLALVSAPSYDPNGFIFGWSD--KEWKKLNKDKNNP-FSAKFNKTYAPGSTIKPIAAAIGIKNGTLKADEKKTIKGKEWQKDSSWGGYSVTRVSERLQQVDLENALITSDNIYFAQNALDMGADTFTKGLKTFGFSEDVPYEFPIQKSS---IANDKLDSDILLADTGYGQGQMQMSPLHLATAYTPFVDNGDLVKPTLIKKDSQTADVWH-------KQVVTKEGAADITKGLKGVVEDERGSAYQPVVKGITVAGKTGTAELKTSKDDKDGTENGWFVGY--DYENKDLLVAMMIQN----VQDRGGSHYVVEKAKKQFQS</Hsp_hseq>
+      <Hsp_midline>ED +   T  +++   T +++  K  K G D+  TID K Q   ++ L +  GAAVA+ PKTG  L LVS PSYDP  F  G  D  K W  L+ D N P  +    +TY PGST K + AA   + G  ++    T    ++    +         +E      +++A+  S N  F +   ++G D      + FGF+++V    PI+  +    +  K D   + A    GQ   + +PL +A       +NG L++P L+ ++    +V          Q V+   A  + + ++ VV  + G+     + G+TV GKTGTA+      D  G    WFV Y    + K + VA+++++     Q   G       AK   Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|6G0K|A</Hit_id>
+  <Hit_def>Crystal structure of Enterococcus faecium D63r Penicillin-Binding protein 5 (PBP5fm) [Enterococcus faecium] &gt;pdb|6G0K|B Crystal structure of Enterococcus faecium D63r Penicillin-Binding protein 5 (PBP5fm) [Enterococcus faecium] &gt;pdb|6G0K|C Crystal structure of Enterococcus faecium D63r Penicillin-Binding protein 5 (PBP5fm) [Enterococcus faecium] &gt;pdb|6G88|A Crystal structure of Enterococcus Faecium D63r Penicillin-Binding protein 5 (PBP5fm) [Enterococcus faecium] &gt;pdb|6G88|B Crystal structure of Enterococcus Faecium D63r Penicillin-Binding protein 5 (PBP5fm) [Enterococcus faecium] &gt;pdb|6G88|C Crystal structure of Enterococcus Faecium D63r Penicillin-Binding protein 5 (PBP5fm) [Enterococcus faecium]</Hit_def>
+  <Hit_accession>6G0K_A</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>7.39692e-29</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>1317</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>GILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAG--NVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSY</Hsp_qseq>
+      <Hsp_hseq>GKLSITDTDGVEKKVL--IEHEVQNGKDIKLTIDAKAQKTAFDSLGGKAGSTVATTPKTGDLLALASSPSYDPNKMTNGISQED--YKAYEENPEQPFISR-FATGYAPGSTFKMITAAIGLDNGTI-DPNEVLTINGLKWQKDSSWGSYQVTRVSDVSHVDLKTALIYSDNIYMAQETLKMGEKNFRAGLDKFIFGEDLDLPISMNPAQISNEESFNSDILLADTGYGQGELLINPIQQAAMYSVFANNGTLVYPKLIADKETKDKKNVIG----ETAVQTIVP----DLREVVQDV--NGTAHSLSALGIPLAAKTGTAEIKEKQDEKGKENSFLFAF</Hsp_hseq>
+      <Hsp_midline>G LS TD+    +  L  +  + + G D+  TID K QK  F+ LG K G+ VA  PKTG +L L S+PSYDP     G   ++  + A + +P +P ++R     Y PGSTFK++TAA   + G    P++V           +S      +   D  +  ++ A+  S N    +   ++G    RA  +KF F +++ +PI  + +   +    +   + A    GQ +    P+Q A + +  ANNG+L+ P L+A + +    NVI         Q + P     L+++++ V  +GT  +    G+ +  KTGTA+    QD  G   ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|6C84|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein [Enterococcus faecium] &gt;pdb|6C84|B Chain B, Penicillin-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>6C84_A</Hit_accession>
+  <Hit_len>659</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.2011e-28</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>1317</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>621</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>GILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAG--NVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSY</Hsp_qseq>
+      <Hsp_hseq>GKLSITDTDGVEKKVL--IEHEVQNGKDIKLTIDAKAQKTAFDSLGGKAGSTVATTPKTGDLLALASSPSYDPNKMTNGISQED--YKAYEENPEQPFISR-FATGYAPGSTFKMITAAIGLDNGTI-DPNEVLTINGLKWQKDSSWGSYQVTRVSDVSQVDLKTALIYSDNIYMAQETLKMGEKNFRAGLDKFIFGEDLDLPISMNPAQISNEESFNSDILLADTGYGQGELLINPIQQAAMYSVFANNGTLVYPKLIADKETKDKKNVIG----ETAVQTIVP----DLREVVQDV--NGTAHSLSALGIPLAAKTGTAEIKEKQDEKGKENSFLFAF</Hsp_hseq>
+      <Hsp_midline>G LS TD+    +  L  +  + + G D+  TID K QK  F+ LG K G+ VA  PKTG +L L S+PSYDP     G   ++  + A + +P +P ++R     Y PGSTFK++TAA   + G    P++V           +S      +   D     ++ A+  S N    +   ++G    RA  +KF F +++ +PI  + +   +    +   + A    GQ +    P+Q A + +  ANNG+L+ P L+A + +    NVI         Q + P     L+++++ V  +GT  +    G+ +  KTGTA+    QD  G   ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|6MKG|A</Hit_id>
+  <Hit_def>Crystal structure of penicillin binding protein 5 (PBP5) from Enterococcus faecium in the benzylpenicilin-bound form [Enterococcus faecium]</Hit_def>
+  <Hit_accession>6MKG_A</Hit_accession>
+  <Hit_len>678</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.8586e-28</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>1305</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>GILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAG--NVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ-------HGQDNSGLPFAW</Hsp_qseq>
+      <Hsp_hseq>GKLSITDADGVEKKVL--IEHEVQNGKDIKLTIDAKAQKTAFDSLGGKAGSTVATTPKTGDLLALASSPSYDPNKMTNGISQED--YKAYEENPEQPFISR-FATGYAPGSTFKMITAAIGLDNGTI-DPNEVLTINGLKWQKDSSWGSYQVTRVSDVSQVDLKTALIYSDNIYTAQETLKMGEKKFRTGLDKFIFGEDLDLPISMNPAQISNEDSFNSDILLADTGYGQGELLINPIQQAAMYSVFANNGTLVYPKLIADKETKDKKNVIG----ETAVQTIVP----DLREVVQDV--NGTAHSLSALGIPLAAKTGTAEIKEKQDVKGKENSFL-FAF</Hsp_hseq>
+      <Hsp_midline>G LS TD+    +  L  +  + + G D+  TID K QK  F+ LG K G+ VA  PKTG +L L S+PSYDP     G   ++  + A + +P +P ++R     Y PGSTFK++TAA   + G    P++V           +S      +   D     ++ A+  S N    +   ++G  K R   +KF F +++ +PI  + +   +    +   + A    GQ +    P+Q A + +  ANNG+L+ P L+A + +    NVI         Q + P     L+++++ V  +GT  +    G+ +  KTGTA+        G++NS L FA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|6MKA|A</Hit_id>
+  <Hit_def>Crystal structure of penicillin binding protein 5 (PBP5) from Enterococcus faecium in the open conformation [Enterococcus faecium] &gt;pdb|6MKF|A Crystal structure of penicillin binding protein 5 (PBP5) from Enterococcus faecium in the imipenem-bound form [Enterococcus faecium] &gt;pdb|6MKJ|A Crystal structure of penicillin binding protein 5 (PBP5) from Enterococcus faecium in the closed conformation [Enterococcus faecium]</Hit_def>
+  <Hit_accession>6MKA_A</Hit_accession>
+  <Hit_len>643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>4.43852e-28</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>1305</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>341</Hsp_align-len>
+      <Hsp_qseq>GILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAG--NVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ-------HGQDNSGLPFAW</Hsp_qseq>
+      <Hsp_hseq>GKLSITDADGVEKKVL--IEHEVQNGKDIKLTIDAKAQKTAFDSLGGKAGSTVATTPKTGDLLALASSPSYDPNKMTNGISQED--YKAYEENPEQPFISR-FATGYAPGSTFKMITAAIGLDNGTI-DPNEVLTINGLKWQKDSSWGSYQVTRVSDVSQVDLKTALIYSDNIYTAQETLKMGEKKFRTGLDKFIFGEDLDLPISMNPAQISNEDSFNSDILLADTGYGQGELLINPIQQAAMYSVFANNGTLVYPKLIADKETKDKKNVIG----ETAVQTIVP----DLREVVQDV--NGTAHSLSALGIPLAAKTGTAEIKEKQDVKGKENSFL-FAF</Hsp_hseq>
+      <Hsp_midline>G LS TD+    +  L  +  + + G D+  TID K QK  F+ LG K G+ VA  PKTG +L L S+PSYDP     G   ++  + A + +P +P ++R     Y PGSTFK++TAA   + G    P++V           +S      +   D     ++ A+  S N    +   ++G  K R   +KF F +++ +PI  + +   +    +   + A    GQ +    P+Q A + +  ANNG+L+ P L+A + +    NVI         Q + P     L+++++ V  +GT  +    G+ +  KTGTA+        G++NS L FA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|7RD0|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein [Clostridioides difficile R20291]</Hit_def>
+  <Hit_accession>7RD0_A</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>8.17315e-28</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>1440</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>NGLRYKYK--RSWVDGPMYAPVTGYSSQTYDASQ--LEKLEDGILSGTDSRLF--FR-------NTLDMLTGKPK------QGGDVVTTIDPKVQKAGFEGLGNKKG---AAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLV-AQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQA</Hsp_qseq>
+      <Hsp_hseq>NGIMVEEKTMRYAKDG-LLSHTIGYIKEDDKSGQSGIEKSMDSVLRNSNEKYISAFKAGDAGNEKSLNILKGSVKTVDNKDKDRHLKTTIDYNIQKK-LEQILNKEENPTAAIISEASTGEILAMCSRPNFDQNDISKSLKG-----------KNGEFENRVIKATYPPGSVFKMVVLFSALENGVIDENYTYNCTGKTKV--GNTNEILRCNKRDGHGFQNLRQAFSNSCNPAFLDIAMKLGKEKILKSAEKLHLFEKVDIGL--DEEKIREAPKNISIRNLAIGQENIEFTPLQINQMTQIIANNGTFKPLYLYKSLVDNNMNTIKTYKSSKKEELISPYVCTQVKEYMKSVSRIGTAKDLKDIEGGCGVKTGTAQSSLNKKAIDHGWITGFYPEERPKYV-ITVLVE-GTQK-----GNKSATPIFKEICES</Hsp_hseq>
+      <Hsp_midline>NG+  + K  R   DG + +   GY  +   + Q  +EK  D +L  ++ +    F+        +L++L G  K      +   + TTID  +QK   E + NK+    AA+  +  TG IL + S P++D    +   K             N    NR ++ TYPPGS FK+V   +A E G          T    +  G +  ++  +  +  G   ++ A   SCN  F  +  +LG +K+   AEK    ++V I +  D        K       AIGQ +   TPLQ+  +   IANNG+    YL  +   +  N I T+   +  + +SP    ++++ M+SV + GT  + K      G KTGTAQ   +   +   W   +   +  K V + V+VE G+ +     G   A PI K + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|6PL5|B</Hit_id>
+  <Hit_def>Structural coordination of polymerization and crosslinking by a peptidoglycan synthase complex [Thermus thermophilus HB8] &gt;pdb|6PL6|B Structural coordination of polymerization and crosslinking by a peptidoglycan synthase complex [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>6PL5_B</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>9.7094e-28</Hsp_evalue>
+      <Hsp_query-from>382</Hsp_query-from>
+      <Hsp_query-to>1449</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>574</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>KPKQGGDVVTTIDPKVQKAGFEGL---------GNK----------KGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAE--LGG-DKLRAQAEKFGFNKEVTIPIRADASHFPSGS----------KPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTG--TNAKIPGVTVGGKTGTAQHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVV---EDGSSEAQQISGGSLAAPIAKAMMQAALG</Hsp_qseq>
+      <Hsp_hseq>EPTPGQDVVLTLDLALQRAAEKALEEALADINAGRRLNGLPEEKQVKGAIVALDPTTGEVLAMASAPSFDPNLFAKRPVPEEA--KALLEDKNLPLLNRAV-QPYTPGSTFKLATSYALLEEG-YVTPA-TTYRCSPYIVFGGQVRRNWAS--RDMGPMTVREAIAWSCNTWYYQAVAQDPLGFVDRLARRARLLGLGEATGLEVAEKTGLLPTRAWKREALGEPWYPGETLSVAIGQGAVLATPAQIARMLATIATGGN--KPALHLVKAIGGVPVQPRWEK-----VPGRYWKVLQEGLRKTVSEGTARFVLGEFP-VPTGGKTGTAETPGKRRGLEHAWYMGYGP-TDGSPYPPLVVVAFFENGG------EGSRVALPAVRKVMAAYWG</Hsp_hseq>
+      <Hsp_midline>+P  G DVV T+D  +Q+A  + L         G +          KGA VA+DP TG +L + S PS+DP  FA     +E    AL  D N P+LNRA+ + Y PGSTFKL T+    E G Y +P+  T     YI+ G       AS   D G  TV+ A+  SCNT + +  A+  LG  D+L  +A   G  +   + +       P+ +           P  T   AIGQ    ATP Q+A + A IA  G+  +P L   +   G  +    E      V     + LQ+ +   V  GT      + P V  GGKTGTA+      GL  AW++ Y    DG      VVV   E+G        G  +A P  + +M A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|5E31|A</Hit_id>
+  <Hit_def>2.3 Angstrom Crystal Structure of the Monomeric Form of Penicillin Binding Protein 2 Prime from Enterococcus faecium. [Enterococcus faecium DO]</Hit_def>
+  <Hit_accession>5E31_A</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>6.42848e-27</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>1317</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>GILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAI------GQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAG--NVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSY</Hsp_qseq>
+      <Hsp_hseq>GKLSITDADGVEKKVL--IEHEVQNGKDIKLTIDAKAQKTAFDSLGGKAGSTVATTPKTGDLLALASSPSYDPNKXTNGISQED--YKAYEENPEQPFISR-FATGYAPGSTFKXITAAIGLDNGTI-DPNEVLTINGLKWQKDSSWGSYQVTRVSDVSQVDLKTALIYSDNIYXAQETLKXGEKKFRTGLDKFIFGEDLDLPISXNPAQI---SNEDSFNSDILLADTGYGQGELLINPIQQAAXYSVFANNGTLVYPKLIADKETKDKKNVIG----ETAVQTIVP----DLREVVQDV--NGTAHSLSALGIPLAAKTGTAEIKEKQDEKGKENSFLFAF</Hsp_hseq>
+      <Hsp_midline>G LS TD+    +  L  +  + + G D+  TID K QK  F+ LG K G+ VA  PKTG +L L S+PSYDP     G   ++  + A + +P +P ++R     Y PGSTFK +TAA   + G    P++V           +S      +   D     ++ A+  S N    +   + G  K R   +KF F +++ +PI  + +     S  D    D +      GQ +    P+Q A   +  ANNG+L+ P L+A + +    NVI         Q + P     L+++++ V  +GT  +    G+ +  KTGTA+    QD  G   ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|5DVY|A</Hit_id>
+  <Hit_def>2.95 Angstrom Crystal Structure of the Dimeric Form of Penicillin Binding Protein 2 Prime from Enterococcus faecium [Enterococcus faecium DO]</Hit_def>
+  <Hit_accession>5DVY_A</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>7.78959e-27</Hsp_evalue>
+      <Hsp_query-from>319</Hsp_query-from>
+      <Hsp_query-to>1317</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>GILSGTDSRLFFRNTLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAI------GQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAG--NVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSY</Hsp_qseq>
+      <Hsp_hseq>GKLSITDADGVEKKVL--IEHEVQNGKDIKLTIDAKAQKTAFDSLGGKAGSTVATTPKTGDLLALASSPSYDPNKXTNGISQED--YKAYEENPEQPFISR-FATGYAPGSTFKXITAAIGLDNGTI-DPNEVLTINGLKWQKDSSWGSYQVTRVSDVSQVDLKTALIYSDNIYXAQETLKXGEKKFRTGLDKFIFGEDLDLPISXNPAQI---SNEDSFNSDILLADTGYGQGELLINPIQQAAXYSVFANNGTLVYPKLIADKETKDKKNVIG----ETAVQTIVP----DLREVVQDV--NGTAHSLSALGIPLAAKTGTAEIKEKQDEKGKENSFLFAF</Hsp_hseq>
+      <Hsp_midline>G LS TD+    +  L  +  + + G D+  TID K QK  F+ LG K G+ VA  PKTG +L L S+PSYDP     G   ++  + A + +P +P ++R     Y PGSTFK +TAA   + G    P++V           +S      +   D     ++ A+  S N    +   + G  K R   +KF F +++ +PI  + +     S  D    D +      GQ +    P+Q A   +  ANNG+L+ P L+A + +    NVI         Q + P     L+++++ V  +GT  +    G+ +  KTGTA+    QD  G   ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|4CPK|A</Hit_id>
+  <Hit_def>Chain A, Penicillin binding protein 2 prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|4CPK|B Chain B, Penicillin binding protein 2 prime [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>4CPK_A</Hit_accession>
+  <Hit_len>643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.87539e-26</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>1368</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>610</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC-GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP------SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVED</Hsp_qseq>
+      <Hsp_hseq>LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVVNGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DTKNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQIGWFISYDK--DNPNMMMAINVKD</Hsp_hseq>
+      <Hsp_midline>LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  + T  PGST K++TA            +   D    Y + G       S    N +  E   GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P      S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T  +      +S      L   M+ VV      +       + GK+GTA+    Q  +G    WF+SY K  D   + +A+ V+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|1MWT|A</Hit_id>
+  <Hit_def>Structure of penicillin G acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.45 A resolution. [Staphylococcus aureus] &gt;pdb|1MWT|B Structure of penicillin G acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.45 A resolution. [Staphylococcus aureus] &gt;pdb|1MWU|A Structure of methicillin acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.60 A resolution. [Staphylococcus aureus] &gt;pdb|1MWU|B Structure of methicillin acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.60 A resolution. [Staphylococcus aureus] &gt;pdb|1VQQ|A Structure of Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 1.80 A resolution. [Staphylococcus aureus] &gt;pdb|1VQQ|B Structure of Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 1.80 A resolution. [Staphylococcus aureus] &gt;pdb|4DKI|A Chain A, Penicillin-binding protein 2&apos; [Staphylococcus aureus subsp. aureus COL] &gt;pdb|4DKI|B Chain B, Penicillin-binding protein 2&apos; [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>1MWT_A</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>1.96136e-26</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>1368</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC-GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP------SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVED</Hsp_qseq>
+      <Hsp_hseq>LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVVNGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DTKNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQIGWFISYDK--DNPNMMMAINVKD</Hsp_hseq>
+      <Hsp_midline>LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  + T  PGST K++TA            +   D    Y + G       S    N +  E   GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P      S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T  +      +S      L   M+ VV      +       + GK+GTA+    Q  +G    WF+SY K  D   + +A+ V+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|4BL2|A</Hit_id>
+  <Hit_def>Crystal structure of PBP2a clinical mutant E150K from MRSA [Staphylococcus aureus] &gt;pdb|4BL2|B Crystal structure of PBP2a clinical mutant E150K from MRSA [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4BL2_A</Hit_accession>
+  <Hit_len>643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>2.03666e-26</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>1368</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>610</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC-GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP------SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVED</Hsp_qseq>
+      <Hsp_hseq>LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVVNGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DTKNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQIGWFISYDK--DNPNMMMAINVKD</Hsp_hseq>
+      <Hsp_midline>LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  + T  PGST K++TA            +   D    Y + G       S    N +  E   GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P      S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T  +      +S      L   M+ VV      +       + GK+GTA+    Q  +G    WF+SY K  D   + +A+ V+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|3ZFZ|A</Hit_id>
+  <Hit_def>Chain A, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|3ZFZ|B Chain B, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|3ZG0|A Chain A, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|3ZG0|B Chain B, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|3ZG5|A Chain A, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|3ZG5|B Chain B, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|4CJN|A Chain A, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|4CJN|B Chain B, Penicillin Binding Protein 2 Prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|5M18|A Crystal structure of PBP2a from MRSA in the presence of Cefepime ligand [Staphylococcus aureus] &gt;pdb|5M18|B Crystal structure of PBP2a from MRSA in the presence of Cefepime ligand [Staphylococcus aureus] &gt;pdb|5M19|A Chain A, Penicillin-binding protein 2 [Staphylococcus aureus] &gt;pdb|5M19|B Chain B, Penicillin-binding protein 2 [Staphylococcus aureus] &gt;pdb|5M1A|A Crystal structure of PBP2a from MRSA in the presence of Ceftazidime ligand [Staphylococcus aureus] &gt;pdb|5M1A|B Crystal structure of PBP2a from MRSA in the presence of Ceftazidime ligand [Staphylococcus aureus] &gt;pdb|6H5O|A Chain A, Penicillin binding protein 2 prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|6H5O|B Chain B, Penicillin binding protein 2 prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|6Q9N|A Chain A, Penicillin binding protein 2 prime [Staphylococcus aureus subsp. aureus Mu50] &gt;pdb|6Q9N|B Chain B, Penicillin binding protein 2 prime [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>3ZFZ_A</Hit_accession>
+  <Hit_len>642</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>2.14588e-26</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>1368</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>609</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC-GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP------SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVED</Hsp_qseq>
+      <Hsp_hseq>LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVVNGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DTKNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQIGWFISYDK--DNPNMMMAINVKD</Hsp_hseq>
+      <Hsp_midline>LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  + T  PGST K++TA            +   D    Y + G       S    N +  E   GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P      S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T  +      +S      L   M+ VV      +       + GK+GTA+    Q  +G    WF+SY K  D   + +A+ V+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|6G9F|A</Hit_id>
+  <Hit_def>Structural basis for the inhibition of E. coli PBP2 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6G9F_A</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>2.822e-26</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>1137</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>PKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADAS-----------HFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQ</Hsp_qseq>
+      <Hsp_hseq>PQAGHDIYLTLDLKLQQYIETLLAGSRAAVVVTDPRTGGVLALVSTPSYDPNLFVDGI--SSKDYSALLNDPNTPLVNRATQGVYPPASTVKPYVAVSALSAGVITRNTTLFD-PGWWQLPGSEKRYRDWK-KWGHGRLNVTRSLEESADTFFYQVAYDMGIDRLSEWMGKFGYGHYTGIDLAEERSGNMPTREWKQKRFKKPWYQGDTIPVGIGQGYWTATPIQMSKALMILINDGIVKVPHLLMSTAEDGKQVPWVQPHE</Hsp_hseq>
+      <Hsp_midline>P+ G D+  T+D K+Q+     L   + A V  DP+TG +L LVSTPSYDP  F  G     K ++AL +DPN P++NRA +  YPP ST K   A +A   G     + + D P  + LPG+     +       G   V  +++ S +T F ++  ++G D+L     KFG+     I +  + S            F        T    IGQ    ATP+QM+     + N+G +  P+L+      G  +     H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|6G9P|A</Hit_id>
+  <Hit_def>Structural basis for the inhibition of E. coli PBP2 [Escherichia coli K-12] &gt;pdb|6G9S|A Structural basis for the inhibition of E. coli PBP2 [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>6G9P_A</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>5.02755e-26</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>1137</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>PKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADAS-----------HFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQ</Hsp_qseq>
+      <Hsp_hseq>PQAGHDIYLTLDLKLQQYIETLLAGSRAAVVVTDPRTGGVLALVSTPSYDPNLFVDGIS--SKDYSALLNDPNTPLVNRATQGVYPPASTVKPYVAVSALSAGVITRNTTLFD-PGWWQLPGSEKRYRDWK-KWGHGRLNVTRSLEESADTFFYQVAYDMGIDRLSEWMGKFGYGHYTGIDLAEERSGNMPTREWKQKRFKKPWYQGDTIPVGIGQGYWTATPIQMSKALMILINDGIVKVPHLLMSTAEDGKQVPWVQPHE</Hsp_hseq>
+      <Hsp_midline>P+ G D+  T+D K+Q+     L   + A V  DP+TG +L LVSTPSYDP  F  G     K ++AL +DPN P++NRA +  YPP ST K   A +A   G     + + D P  + LPG+     +       G   V  +++ S +T F ++  ++G D+L     KFG+     I +  + S            F        T    IGQ    ATP+QM+     + N+G +  P+L+      G  +     H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|4BL3|A</Hit_id>
+  <Hit_def>Crystal structure of PBP2a clinical mutant N146K from MRSA [Staphylococcus aureus] &gt;pdb|4BL3|B Crystal structure of PBP2a clinical mutant N146K from MRSA [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>4BL3_A</Hit_accession>
+  <Hit_len>640</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>6.70426e-26</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>1368</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC-GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP------SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVED</Hsp_qseq>
+      <Hsp_hseq>LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQITTSPGSTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVVNGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DTKNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKM-KQGRQIGWFISYDK--DNPNMMMAINVKD</Hsp_hseq>
+      <Hsp_midline>LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  + T  PGST K++TA            +   D    Y + G       S    N +  E   GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P      S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T  +      +S      L   M+ VV      +       + GK+GTA+      G    WF+SY K  D   + +A+ V+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1MWS|A</Hit_id>
+  <Hit_def>Structure of nitrocefin acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.00 A resolution. [Staphylococcus aureus] &gt;pdb|1MWS|B Structure of nitrocefin acyl-Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r at 2.00 A resolution. [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1MWS_A</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>7.95516e-26</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>1368</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>613</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>59</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC-GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP------SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVED</Hsp_qseq>
+      <Hsp_hseq>LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNMKNDYGSGTAIHPQTGELLALVSTPSYDVYPFMYGMSNEE--YNKLTEDKKEPLLNK-FQITTSPGXTQKILTAMIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVVNGNIDLKQAIESSDNIFFARVALELGSKKFEKGMKKLGVGEDI-------PSDYPFYNAQISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLK---------DTKNKVWKKNIISKENINLLTDGMQQVVNKTHKEDIYRSYANLIGKSGTAELKMKQGETGRQIGWFISYDK--DNPNMMMAINVKD</Hsp_hseq>
+      <Hsp_midline>LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +  + N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  + T  PG T K++TA            +   D    Y + G       S    N +  E   GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P      S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+           T  +      +S      L   M+ VV      +       + GK+GTA+    Q  +G    WF+SY K  D   + +A+ V+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|6TII|AAA</Hit_id>
+  <Hit_def>Chain AAA, Peptidoglycan D,D-transpeptidase MrdA [Yersinia pestis] &gt;pdb|6TII|BBB Chain BBB, Peptidoglycan D,D-transpeptidase MrdA [Yersinia pestis] &gt;pdb|6TIX|AAA Chain AAA, Peptidoglycan D,D-transpeptidase MrdA [Yersinia pestis] &gt;pdb|6TIX|BBB Chain BBB, Peptidoglycan D,D-transpeptidase MrdA [Yersinia pestis]</Hit_def>
+  <Hit_accession>6TII_AAA</Hit_accession>
+  <Hit_len>583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>4.1544e-25</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>1371</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>PKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPS-------GSKP---DGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQ--AVSPATAQKLQQLMESVVQHGTGTNAKIPGVT---VGGKTGTAQ--------------HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDG</Hsp_qseq>
+      <Hsp_hseq>PQAGKDIYLTLDLSLQIYIEKLLSGSRAAVVVTDPRTGGILALVSNPSYDPNLFVDGISN--KDYQGLLNDTNRPLINRATQGVYPPASTVKPYIAVSALSAGVITKNTSLFD-PGWWQLPGSEKRYRDWK-KWGHGRLNVTKALEESADTFFYQVAYDMGIDRLSSWMSKFGYGEYTGIDLSEERAGLMPTREWKQKRHKKPWYQGDTIPVGIGQGYWTATPIQMAKSLMTLINDGTVKTPHLL-QSTRIDGVLVPYKQEDSTQIGSINSGYWEIAKDGMYGVANRPNGTGRKFFEGTPYKAAAKSGTAQVYSYETYNASKVAEHLRDHKLM-----VAFAPYEN-PTVSVAIILENG</Hsp_hseq>
+      <Hsp_midline>P+ G D+  T+D  +Q    + L   + A V  DP+TG IL LVS PSYDP  F  G  +  K +  L +D N+P++NRA +  YPP ST K   A +A   G     + + D P  + LPG+     +       G   V  A++ S +T F ++  ++G D+L +   KFG+ +   I +  + A   P+         KP     T    IGQ    ATP+QMA     + N+G++  P+L+ Q      V+  + +   +Q  +++    +  +  M  V     GT  K    T      K+GTAQ              H +D+  +     V++A  ++   V+VA+++E+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1MWR|A</Hit_id>
+  <Hit_def>Structure of SeMet Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r (trigonal form) at 2.45 A resolution. [Staphylococcus aureus] &gt;pdb|1MWR|B Structure of SeMet Penicillin binding protein 2a from methicillin resistant Staphylococcus aureus strain 27r (trigonal form) at 2.45 A resolution. [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>1MWR_A</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.12005e-24</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>1356</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>611</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>LEKLEDGILSGTDSRLFFRNTL----------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPG------TSTPLINASPTEDC-GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFP------SGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGS---AGNVISTHTEHQLS----QAVSPATAQKLQQLMESVVQHGTGTNAKIPGVTVGGKTGTAQ--HGQDNSGLPFAWFVSYAKGQDGKQVAVAV</Hsp_qseq>
+      <Hsp_hseq>LEKLYDKKLQHEDG---YRVTIVDDNSNTIAHTLIEKKKKDGKDIQLTIDAKVQKSIYNNXKNDYGSGTAIHPQTGELLALVSTPSYDVYPFXYGXSNEE--YNKLTEDKKEPLLNK-FQITTSPGSTQKILTAXIGLN-------NKTLDDKTSYKIDGKGWQKDKSWGGYNVTRYEVVNGNIDLKQAIESSDNIFFARVALELGSKKFEKGXKKLGVGEDI-------PSDYPFYNAQISNKNLDNEILLADSGYGQGEILINPVQILSIYSALENNGNINAPHLLKDTKNKVWKKNIISKENINLLTDGXQQVVNKTHKEDIYRSYANLI----------------GKSGTAELKXKQGETGRQIGWFISYDKDNPNXXXAINV</Hsp_hseq>
+      <Hsp_midline>LEKL D  L   D    +R T+           ++  K K G D+  TID KVQK+ +    N  G+  AI P+TG +L LVSTPSYD   F  G  ++E  +  L  D  +P+LN+  + T  PGST K++TA            +   D    Y + G       S    N +  E   GN  ++ A++ S N  F ++  ELG  K     +K G  +++        S +P      S    D   + A    GQ +    P+Q+  + +A+ NNG++  P+L+    +     N+IS    + L+    Q V+    + + +   +++                GK+GTA+    Q  +G    WF+SY K       A+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|6XV5|AAA</Hit_id>
+  <Hit_def>Chain AAA, Peptidoglycan D,D-transpeptidase MrdA [Yersinia pestis] &gt;pdb|6XV5|BBB Chain BBB, Peptidoglycan D,D-transpeptidase MrdA [Yersinia pestis]</Hit_def>
+  <Hit_accession>6XV5_AAA</Hit_accession>
+  <Hit_len>583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.45943e-24</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>1371</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>PKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPS-------GSKP---DGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQ--AVSPATAQKLQQLMESVVQHGTGTNAKIPGVT---VGGKTGTAQ--------------HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDG</Hsp_qseq>
+      <Hsp_hseq>PQAGKDIYLTLDLSLQIYIEKLLSGSRAAVVVTDPRTGGILALVSNPSYDPNLFVDGISN--KDYQGLLNDTNRPLINRATQGVYPPAXTVKPYIAVSALSAGVITKNTSLFD-PGWWQLPGSEKRYRDWK-KWGHGRLNVTKALEESADTFFYQVAYDMGIDRLSSWMSKFGYGEYTGIDLSEERAGLMPTREWKQKRHKKPWYQGDTIPVGIGQGYWTATPIQMAKSLMTLINDGTVKTPHLL-QSTRIDGVLVPYKQEDSTQIGSINSGYWEIAKDGMYGVANRPNGTGRKFFEGTPYKAAAKSGTAQVYSYETYNASKVAEHLRDHKLM-----VAFAPYEN-PTVSVAIILENG</Hsp_hseq>
+      <Hsp_midline>P+ G D+  T+D  +Q    + L   + A V  DP+TG IL LVS PSYDP  F  G  +  K +  L +D N+P++NRA +  YPP  T K   A +A   G     + + D P  + LPG+     +       G   V  A++ S +T F ++  ++G D+L +   KFG+ +   I +  + A   P+         KP     T    IGQ    ATP+QMA     + N+G++  P+L+ Q      V+  + +   +Q  +++    +  +  M  V     GT  K    T      K+GTAQ              H +D+  +     V++A  ++   V+VA+++E+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|6BSR|A</Hit_id>
+  <Hit_def>Chain A, PBP4 protein [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>6BSR_A</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>9.49159e-22</Hsp_evalue>
+      <Hsp_query-from>370</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>625</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>MLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLV--AQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTAQ-------HGQDNSGL</Hsp_qseq>
+      <Hsp_hseq>LQTKEKKDGQTIKLTIDSGVQQQAFAIFDKRPGSAVITDPQKGDLLATVSSPSYDPNKMANGIS--QKEYDAYNNNKDLPFTAR-FATGYAPGSTFKTITGAIGLDAGTLK-PDEELEINGLKWQKDKSWGGYFATRVKEASPVNLRTALVNSDNIYFAQQTLRMGEDKFRAGLNKFIFGEELDLPIAMTPAQISNEDKFNSEILLADTGYGQGQLLISPIQQATMYSVFQNNGTLVYPKLVLDKETKKKDNVISANAANTIA-----------TDLLGSVEDPSGYVYNMYNPNFSLAAKTGTAEIKDKQDTDGKENSFL</Hsp_hseq>
+      <Hsp_midline>+ T + K G  +  TID  VQ+  F     + G+AV  DP+ G +L  VS+PSYDP   A G    +K + A +++ + P   R     Y PGSTFK +T A   + G  + P +  +          S     A+  ++     ++ A+  S N  F +    +G DK RA   KF F +E+ +PI    +   +  K +   + A    GQ     +P+Q A + +   NNG+L+ P LV   +     NVIS +  + ++             L+ SV    G   N   P  ++  KTGTA+        G++NS L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|6BSQ|A</Hit_id>
+  <Hit_def>Enterococcus faecalis Penicillin Binding Protein 4 (PBP4) [Enterococcus faecalis] &gt;pdb|6MKH|A Crystal structure of pencillin binding protein 4 (PBP4) from Enterococcus faecalis in the imipenem-bound form [Enterococcus faecalis] &gt;pdb|6MKI|A Crystal structure of penicillin-binding protein 4 (PBP4) from Enterococcus faecalis in the ceftaroline-bound form [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>6BSQ_A</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.04369e-21</Hsp_evalue>
+      <Hsp_query-from>370</Hsp_query-from>
+      <Hsp_query-to>1293</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>MLTGKPKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDA---IGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGS--AGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTAQ-------HGQDNSGL</Hsp_qseq>
+      <Hsp_hseq>LQTKEKKDGQTIKLTIDSGVQQQAFAIFDKRPGSAVITDPQKGDLLATVSSPSYDPNKMANGIS--QKEYDAYNNNKDLPFTAR-FATGYAPGSTFKTITGAIGLDAGTLK-PDEELEINGLKWQKDKSWGGYFATRVKEASPVNLRTALVNSDNIYFAQQTLRMGEDKFRAGLNKFIFGEELDLPIAMTPAQISNEDKFNSEILLADTGYGQGQLLISPIQQATMYSVFQNNGTLVYPKLVLDKETKKKDNVISANAANTIA-----------TDLLGSVEDPSGYVYNMYNPNFSLAAKTGTAEIKDKQDTDGKENSFL</Hsp_hseq>
+      <Hsp_midline>+ T + K G  +  TID  VQ+  F     + G+AV  DP+ G +L  VS+PSYDP   A G    +K + A +++ + P   R     Y PGSTFK +T A   + G  + P +  +          S     A+  ++     ++ A+  S N  F +    +G DK RA   KF F +E+ +PI    +   +  K +   + A    GQ     +P+Q A + +   NNG+L+ P LV  + +    NVIS +  + ++             L+ SV    G   N   P  ++  KTGTA+        G++NS L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|7O49|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|B Chain B, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|C Chain C, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|D Chain D, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|E Chain E, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|F Chain F, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|G Chain G, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|H Chain H, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|I Chain I, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|J Chain J, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|K Chain K, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O49|L Chain L, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O4A|AAA Chain AAA, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O4A|BBB Chain BBB, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O4B|A Chain A, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O4B|C Chain C, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|A Chain A, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|B Chain B, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|C Chain C, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|D Chain D, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|E Chain E, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|F Chain F, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|G Chain G, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|H Chain H, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|I Chain I, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|J Chain J, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|K Chain K, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7OK9|L Chain L, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>7O49_A</Hit_accession>
+  <Hit_len>650</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>5.09972e-21</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>1431</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>KRSWVDGPMYAPVTGYSSQTYDASQL------EKLEDGILSGTDSRLFFRNTL-------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTED-----CGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHT----EHQLS-QAVSPATAQKLQQLMESVV--QHGTGTNAKIPGVTVGGKTGTAQHGQDNSG----LPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAM</Hsp_qseq>
+      <Hsp_hseq>ERFYPNGNFASHLIGRAQKNPDTGELKGALGVEKIFDSYLSGSKGSLRYIHDIWGYIAPNTKKEKQPKRGDDVHLTIDSNIQVFVEEALDGMVERYQPKDLFAVVMDAKTGEILAYSQRPTFNPET----GKDFGKKWA-----------NDLYQNTYEPGSTFKSYGLAAAIQEGAFD--------PDKKYKSGHRD--IMGSRISDWNRVGWGEIPMSLGFTYSSNTLMMHLQDLVGADKMKSWYERFGFGKSTKGMFDGEAPGQIGWSNELQQKTSSFGQ-STTVTPVQMLQAQSAFFNDGNMLKPWFV---NSVENPVSKRQFYKGQKQIAGKPITKDTAEKVEKQLDLVVNSKKSHAANYRIDGYEVEGKTGTAQVAAPNGGGYVKGPNPYFVSFM--GDAPKKNPKVIVYAGMSLAQKNDQEAYELGVSKAF</Hsp_hseq>
+      <Hsp_midline>+R + +G   + + G + +  D  +L      EK+ D  LSG+   L + + +            +PK+G DV  TID  +Q    E L         K   AV +D KTG IL     P+++P T     KD  K W            N   + TY PGSTFK    A A + G +         PD+    G     I  S   D      G   +      S NT+   +   +G DK+++  E+FGF K        +A      S        + GQ  T  TP+QM    +A  N+G++++P+ V    S  N +S       + Q++ + ++  TA+K+++ ++ VV  +     N +I G  V GKTGTAQ    N G     P  +FVS+    D  +    V+V  G S AQ+    +    ++KA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|7O4B|AAA</Hit_id>
+  <Hit_def>Chain AAA, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|7O4B|BBB Chain BBB, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>7O4B_AAA</Hit_accession>
+  <Hit_len>650</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.66771e-20</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>1431</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>KRSWVDGPMYAPVTGYSSQTYDASQL------EKLEDGILSGTDSRLFFRNTL-------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDC-----GNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHT----EHQLS-QAVSPATAQKLQQLMESVV--QHGTGTNAKIPGVTVGGKTGTAQHGQDNSG----LPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAM</Hsp_qseq>
+      <Hsp_hseq>ERFYPNGNFASHLIGRAQKNPDTGELKGALGVEKIFDSYLSGSKGSLRYIHDIWGYIAPNTKKEKQPKRGDDVHLTIDSNIQVFVEEALDGMVERYQPKDLFAVVMDAKTGEILAYSQRPTFNPET----GKDFGKKWA-----------NDLYQNTYEPGXTFKSYGLAAAIQEGAFD--------PDKKYKSGHRD--IMGSRISDWNRVGWGEIPMSLGFTYSSNTLMMHLQDLVGADKMKSWYERFGFGKSTKGMFDGEAPGQIGWSNELQQKTSSFGQ-STTVTPVQMLQAQSAFFNDGNMLKPWFV---NSVENPVSKRQFYKGQKQIAGKPITKDTAEKVEKQLDLVVNSKKSHAANYRIDGYEVEGKTGTAQVAAPNGGGYVKGPNPYFVSFM--GDAPKKNPKVIVYAGMSLAQKNDQEAYELGVSKAF</Hsp_hseq>
+      <Hsp_midline>+R + +G   + + G + +  D  +L      EK+ D  LSG+   L + + +            +PK+G DV  TID  +Q    E L         K   AV +D KTG IL     P+++P T     KD  K W            N   + TY PG TFK    A A + G +         PD+    G     I  S   D      G   +      S NT+   +   +G DK+++  E+FGF K        +A      S        + GQ  T  TP+QM    +A  N+G++++P+ V    S  N +S       + Q++ + ++  TA+K+++ ++ VV  +     N +I G  V GKTGTAQ    N G     P  +FVS+    D  +    V+V  G S AQ+    +    ++KA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|3UE3|A</Hit_id>
+  <Hit_def>Chain A, Septum formation, penicillin binding protein 3, peptidoglycan synthetase [Acinetobacter sp. ATCC 27244]</Hit_def>
+  <Hit_accession>3UE3_A</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.29868e-19</Hsp_evalue>
+      <Hsp_query-from>388</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>535</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>KQGGDVVTTIDPKVQKAGFE-----GLGN--KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSKPDGTAMDAIGQ-HDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQL---SQAVSPATAQKLQQLMESV-VQHGTGTNAKIPGVTVGGKTGTA------QHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>ESGENITLSIDSRLQYIMYRELTAAGVANNARSATAIAVDVKTGEILAMTSWPSYNPNDKGGLSNKDA-------------MRNRGAIDMFEPGSTMKPFTVAAALESGQY-TPNSIVNTAPGTMRLGWHT----IRDTHNYGALTLTGIIVKSSNVGSAKLALSLPKEALPSFFRRAGFGQSSDVKFPGESAGLLYSADKLNSSQLGTMAYGYGLNATILQLAQGYAMLANHGVEMP-------------LSLHKLDQVPEGRQVLDPKIADQVLMMLEQVTLPGGTAKQAVIPGYRVGGKTGTAHKLRADRKGYSNSEY-RALFAGVAPVSDPR-LAMIVVVENPQG---RYYGGLVAAPVFAKIMQESL</Hsp_hseq>
+      <Hsp_midline>+ G ++  +ID ++Q   +      G+ N  +   A+A+D KTG IL + S PSY+P    G +  D              M NR   + + PGST K  T A A E+G+Y +P+ + +T    +  G  T       T + G  T+   +  S N    K+   L  + L +   + GF +   +    + A    S  K + + +  +   +   AT LQ+A   A +AN+G  M              +S H   Q+    Q + P  A ++  ++E V +  GT   A IPG  VGGKTGTA      + G  NS    A F   A   D + +A+ VVVE+      +  GG +AAP+   +MQ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|5TRO|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL] &gt;pdb|5TRO|B Chain B, Penicillin-binding protein 1 [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>5TRO_A</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>4.42702e-19</Hsp_evalue>
+      <Hsp_query-from>226</Hsp_query-from>
+      <Hsp_query-to>1431</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>539</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>67</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>KRSWVDGPMYAPVTGYSSQTYDASQL------EKLEDGILSGTDSRLFFRNTL-------DMLTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTED-----CGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHT----EHQLS-QAVSPATAQKLQQLMESVV--QHGTGTNAKIPGVTVGGKTGTAQHGQDNSG----LPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAM</Hsp_qseq>
+      <Hsp_hseq>ERFYPNGNFASHLIGRAQKNPDTGELKGALGVEKIFDSYLSGSKGSLRYIHDIWGYIAPNTKKEKQPKRGDDVHLTIDSNIQVFVEEALDGXVERYQPKDLFAVVXDAKTGEILAYSQRPTFNPET----GKDFGKKWA-----------NDLYQNTYEPGSTFKSYGLAAAIQEGAFD--------PDKKYKSGHRD--IXGSRISDWNRVGWGEIPXSLGFTYSSNTLXXHLQDLVGADKXKSWYERFGFGKSTKGXFDGEAPGQIGWSNELQQKTSSFGQ-STTVTPVQXLQAQSAFFNDGNXLKPWFV---NSVENPVSKRQFYKGQKQIAGKPITKDTAEKVEKQLDLVVNSKKSHAANYRIDGYEVEGKTGTAQVAAPNGGGYVKGPNPYFVSFX--GDAPKKNPKVIVYAGXSLAQKNDQEAYELGVSKAF</Hsp_hseq>
+      <Hsp_midline>+R + +G   + + G + +  D  +L      EK+ D  LSG+   L + + +            +PK+G DV  TID  +Q    E L         K   AV  D KTG IL     P+++P T     KD  K W            N   + TY PGSTFK    A A + G +         PD+    G     I  S   D      G          S NT+   +   +G DK ++  E+FGF K        +A      S        + GQ  T  TP+Q     +A  N+G+ ++P+ V    S  N +S       + Q++ + ++  TA+K+++ ++ VV  +     N +I G  V GKTGTAQ    N G     P  +FVS+    D  +    V+V  G S AQ+    +    ++KA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5UY7|A</Hit_id>
+  <Hit_def>Crystal structure of a peptidoglycan glycosyltransferase from Burkholderia ambifaria [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>5UY7_A</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>7.96581e-19</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>1440</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>526</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>74</Hsp_gaps>
+      <Hsp_align-len>443</Hsp_align-len>
+      <Hsp_qseq>RYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLED-GILSGTDS-RLFFRNTLDMLTGK------PKQGGDVVTTIDPKVQ-------KAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTED---CGNATVQHAMDLSCNTVFGKMGAELGGDKL--------RAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQL--SQAVSPATAQKLQQLMESVVQH-GTGTNAKIPGVTVGGKTGTA--QHGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVED---GSSEAQQISGGSLAAPIAKAMMQA</Hsp_qseq>
+      <Hsp_hseq>RNEYKRFYPEGEITAHLIGFTNVEDEGQEGVELGDQKLLSGTSGVRRVIKDRLGHIVEDVAEQVPPHNGTDVGLSIDSKIQYIAYANLKAAVEKFKAKAGAAMVVDVRTGEVLALVNYPTYNP--------NDRTRLTG------EQLRNRILTDVFEPGSIMKPFTVSLALDLHRV--------TPNTLVETGNGHFVLDGAPITDDAGFGTLTVGGVIQKSSNIGATKIAMTMRPEEMWNMYTSIGLGQAPKVGFPGAAAGRLRP----WKSWRRIEQATMSY--GYGLSVSLFQLARAYTAIAHDGEMMPV----------TIFKTDPNQQITGTQVFTPTTAREVRTMLETVVAPGGTSPDAAVPGYRVGGKSGTAYKHEGHGYTRKYRASFVGMAP-MPNPRIVVAVSVDEPTAGSHFGGQVSGPVFSA-IAGDTMRA</Hsp_hseq>
+      <Hsp_midline>R +YKR + +G + A + G+++   +  +  +L D  +LSGT   R   ++ L  +         P  G DV  +ID K+Q       KA  E    K GAA+ +D +TG +L LV+ P+Y+P        +D    T       + + NR L + + PGS  K  T + A +  +         TP+  +  G    +++ +P  D    G  TV   +  S N    K+   +  +++          QA K GF       +R     + S  + +   M     +    +  Q+A    AIA++G +M             +  T    Q+  +Q  +P TA++++ ++E+VV   GT  +A +PG  VGGK+GTA    G   +    A FV  A      ++ VAV V++   GS    Q+SG   +A IA   M+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|5LP4|A</Hit_id>
+  <Hit_def>Penicillin-Binding Protein (PBP2) from Helicobacter pylori [Helicobacter pylori 26695] &gt;pdb|5LP4|B Penicillin-Binding Protein (PBP2) from Helicobacter pylori [Helicobacter pylori 26695] &gt;pdb|5LP5|A Complex between Penicillin-Binding Protein (PBP2) and MreC from Helicobacter pylori [Helicobacter pylori 26695] &gt;pdb|5LP5|B Complex between Penicillin-Binding Protein (PBP2) and MreC from Helicobacter pylori [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>5LP4_A</Hit_accession>
+  <Hit_len>594</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>3.00697e-18</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>1269</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>518</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>PKQGGDVVTTIDPKVQKAGFEGLGNKKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-----------ASHFPSGSKPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQL---MESVVQHGTGT---NAKIPGVTVGGKTGTAQ</Hsp_qseq>
+      <Hsp_hseq>PSTNNHLQLSLDKRLQKEADKLFENKRGAILVMDAENGELLVAGSYPEYNLNDFVGGISQDK--WQKLQDDIYNPLLNRFANALYPPGSVVKMGVGLSFLENLHITENTTIPTPP--FIEVGKHK--FRDWKKTGHGNSNLYKAIRESVDVYFYKFGLEISIEKLSKTLREVGFGEKTGVDLPNEFVGIVPDNLWKLKRFNQDWRVGDTLITAIGQGSFLATPLQVLAYTGLIA-TGKLATPHF-----------AINNKQPLKDPLNSFQKKKLQALRVGMYEVCNHKDGTAYHSTRGSKITLACKTGTAQ</Hsp_hseq>
+      <Hsp_midline>P     +  ++D ++QK   +   NK+GA + +D + G +L   S P Y+   F GG   D+  W  L  D   P+LNR     YPPGS  K+    +  E       + +   P  +I  G              GN+ +  A+  S +  F K G E+  +KL     + GF ++  + +  +              F    +   T + AIGQ    ATPLQ+      IA  G L  P+            + + +  L   ++    +KLQ L   M  V  H  GT   + +   +T+  KTGTAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|3EQV|A</Hit_id>
+  <Hit_def>Chain A, Penicillin-binding protein 2 [Neisseria gonorrhoeae] &gt;pdb|3EQV|B Chain B, Penicillin-binding protein 2 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>3EQV_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>7.44924e-18</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>QAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQ-LE-KLEDGILSGTDSRLFFR----NTLDML----TGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCG---NATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGS----------KPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTAQ---HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>KALGLENFV--FEKELKRHYPMGNLFAHVIGFTDIDGKGQEGLELSLEDSLYGEDGAEVVLRDRQGNIVDSLDSPRNKAPQNGKDIILSLDQRIQTLAYEELNKAVEYHQAKAGTVVVLDARTGEILALANTPAYDPNR--PGRADSEQRR------------NRAVTDMIEPGSAIKPFVIAKALDAGKTDLNERLNTQPYK----------IGPSPVRDTHVYPSLDVRGIMQKSSNVGTSKLSARFGAE------EMYDFYHELGIGVRMH-SGFPGETAGLLRNWRRWRPIEQATMSFG-YGLQLSLLQLARAYTALTHDGVLL-PLSFEKQAVA---------PQGKRIFKEXTAREVRNLMVSVTEPGGTGTAGAVDGFDVGAKTGTARKLVNGRYVDNKHVGTFIGFAPAKN-PRVIVAVTIDEPT--AHGYYGGVVAGSPFKKIMGGSL</Hsp_hseq>
+      <Hsp_midline>+A+   +FV     + KR +  G ++A V G++       + LE  LED +     + +  R    N +D L       P+ G D++ ++D ++Q   +E L         K G  V +D +TG IL L +TP+YDP     G  D E+              NRA+ +   PGS  K    A A + GK      +   P +          I  SP  D     +  V+  M  S N    K+ A  G +      E + F  E+ I +R   S FP  +          +P   A  + G +  + + LQ+A    A+ ++G L+ P    ++  A          Q  +     TA++++ LM SV +  GTGT   + G  VG KTGTA+   +G+         F+ +A  ++  +V VAV +++ +  A    GG +A    K +M  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|3EQU|A</Hit_id>
+  <Hit_def>Crystal structure of penicillin-binding protein 2 from Neisseria gonorrhoeae [Neisseria gonorrhoeae] &gt;pdb|3EQU|B Crystal structure of penicillin-binding protein 2 from Neisseria gonorrhoeae [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>3EQU_A</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.32057e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>QAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQ-LE-KLEDGILSGTDSRLFFR----NTLDML----TGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCG---NATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGS----------KPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTAQ---HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>KALGLENFV--FEKELKRHYPXGNLFAHVIGFTDIDGKGQEGLELSLEDSLYGEDGAEVVLRDRQGNIVDSLDSPRNKAPQNGKDIILSLDQRIQTLAYEELNKAVEYHQAKAGTVVVLDARTGEILALANTPAYDPNR--PGRADSEQ------------RRNRAVTDXIEPGSAIKPFVIAKALDAGKTDLNERLNTQPYK----------IGPSPVRDTHVYPSLDVRGIXQKSSNVGTSKLSARFGAE------EXYDFYHELGIGVRXH-SGFPGETAGLLRNWRRWRPIEQATXSFG-YGLQLSLLQLARAYTALTHDGVLL-PLSFEKQAVA---------PQGKRIFKEXTAREVRNLXVSVTEPGGTGTAGAVDGFDVGAKTGTARKFVNGRYADNKHVATFIGFAPAKN-PRVIVAVTIDEPT--AHGYYGGVVAGPPFKKIXGGSL</Hsp_hseq>
+      <Hsp_midline>+A+   +FV     + KR +  G ++A V G++       + LE  LED +     + +  R    N +D L       P+ G D++ ++D ++Q   +E L         K G  V +D +TG IL L +TP+YDP     G  D E+              NRA+ +   PGS  K    A A + GK      +   P +          I  SP  D     +  V+     S N    K+ A  G +      E + F  E+ I +R   S FP  +          +P   A  + G +  + + LQ+A    A+ ++G L+ P    ++  A          Q  +     TA++++ L  SV +  GTGT   + G  VG KTGTA+   +G+       A F+ +A  ++  +V VAV +++ +  A    GG +A P  K +   +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|5KSH|A</Hit_id>
+  <Hit_def>Crystal structure of penicillin-binding protein 2 from Neisseria gonorrhoeae containing an A501T mutation associated with cephalosporin resistance [Neisseria gonorrhoeae] &gt;pdb|5KSH|B Crystal structure of penicillin-binding protein 2 from Neisseria gonorrhoeae containing an A501T mutation associated with cephalosporin resistance [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>5KSH_A</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>2.91034e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>520</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>81</Hsp_gaps>
+      <Hsp_align-len>457</Hsp_align-len>
+      <Hsp_qseq>QAVTKSDFVNGLRYKYKRSWVDGPMYAPVTGYSSQTYDASQ-LE-KLEDGILSGTDSRLFFR----NTLDML----TGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCG---NATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGS----------KPDGTAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQ-HGTGTNAKIPGVTVGGKTGTAQ---HGQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>KALGLENFV--FEKELKRHYPMGNLFAHVIGFTDIDGKGQEGLELSLEDSLYGEDGAEVVLRDRQGNIVDSLDSPRNKAPQNGKDIILSLDQRIQTLAYEELNKAVEYHQAKAGTVVVLDARTGEILALANTPAYDPNR--PGRADSEQRR------------NRAVTDMIEPGSAIKPFVIAKALDAGKTDLNERLNTQPYK----------IGPSPVRDTHVYPSLDVRGIMQKSSNVGTSKLSARFGAE------EMYDFYHELGIGVRMH-SGFPGETAGLLRNWRRWRPIEQATMSFG-YGLQLSLLQLARAYTALTHDGVLL-PLSFEKQAVA---------PQGKRIFKEXTAREVRNLMVSVTEPGGTGTAGAVDGFDVGAKTGTTRKLVNGRYVDNKHVGTFIGFAPAKN-PRVIVAVTIDEPT--AHGYYGGVVAGSPFKKIMGGSL</Hsp_hseq>
+      <Hsp_midline>+A+   +FV     + KR +  G ++A V G++       + LE  LED +     + +  R    N +D L       P+ G D++ ++D ++Q   +E L         K G  V +D +TG IL L +TP+YDP     G  D E+              NRA+ +   PGS  K    A A + GK      +   P +          I  SP  D     +  V+  M  S N    K+ A  G +      E + F  E+ I +R   S FP  +          +P   A  + G +  + + LQ+A    A+ ++G L+ P    ++  A          Q  +     TA++++ LM SV +  GTGT   + G  VG KTGT +   +G+         F+ +A  ++  +V VAV +++ +  A    GG +A    K +M  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|7KIT|A</Hit_id>
+  <Hit_def>Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1] &gt;pdb|7KIV|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1] &gt;pdb|7KIW|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>7KIT_A</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>5.99603e-15</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYRSL--FAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+      F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|7ONK|A</Hit_id>
+  <Hit_def>Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1] &gt;pdb|7ONK|B Chain B, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1] &gt;pdb|7ONX|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1] &gt;pdb|7ONY|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1] &gt;pdb|7ONZ|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>7ONK_A</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>7.49523e-15</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|6R40|A</Hit_id>
+  <Hit_def>Apo structure of R504C mutant of Pseudomonas aeruginosa Penicillin-Binding Protein 3 (PBP3) [Pseudomonas aeruginosa PAO1] &gt;pdb|6R42|A Structure of R504C mutant of Pseudomonas aeruginosa Penicillin-Binding Protein 3 (PBP3) in complex with piperacillin [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>6R40_A</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>8.15524e-15</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYC--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|4L0L|A</Hit_id>
+  <Hit_def>Crystal structure of P.aeruginosa PBP3 in complex with compound 4 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>4L0L_A</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>8.30119e-15</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|6R3X|A</Hit_id>
+  <Hit_def>Structure of Pseudomonas aeruginosa Penicillin-Binding Protein 3 (PBP3) in complex with piperacillin [Pseudomonas aeruginosa PAO1] &gt;pdb|6Y6U|A Structure of Pseudomonas aeruginosa Penicillin-Binding Protein 3 (PBP3) in complex with Compound 6 [Pseudomonas aeruginosa PAO1] &gt;pdb|6Y6Z|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>6R3X_A</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>8.7436e-15</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|6UN1|A</Hit_id>
+  <Hit_def>Crystal structure of Pseudomonas aeruginosa PBP3 in complex with temocillin [Pseudomonas aeruginosa] &gt;pdb|6UN3|A Crystal structure of Pseudomonas aeruginosa PBP3 in complex with ticarcillin [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>6UN1_A</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.009e-14</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|6HR4|A</Hit_id>
+  <Hit_def>Apo form of penicillin-binding protein 3 from P. aeruginosa [Pseudomonas aeruginosa PAO1] &gt;pdb|6HR6|A Nitrocefin acylation of single catalytic serine of penicillin-binding protein 3 from P. aeruginosa [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>6HR4_A</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.03162e-14</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|3PBN|A</Hit_id>
+  <Hit_def>Crystal Structure of Apo PBP3 from Pseudomonas aeruginosa [Pseudomonas aeruginosa PAO1] &gt;pdb|3PBO|A Crystal structure of PBP3 complexed with ceftazidime [Pseudomonas aeruginosa PAO1] &gt;pdb|3PBQ|A Crystal structure of PBP3 complexed with imipenem [Pseudomonas aeruginosa PAO1] &gt;pdb|3PBR|A Crystal structure of PBP3 complexed with meropenem [Pseudomonas aeruginosa PAO1] &gt;pdb|3PBS|A Crystal structure of PBP3 complexed with aztreonam [Pseudomonas aeruginosa PAO1] &gt;pdb|3PBT|A Crystal structure of PBP3 complexed with MC-1 [Pseudomonas aeruginosa PAO1] &gt;pdb|4OOL|A Crystal structure of PBP3 in complex with compound 14 ((2E)-2-({[(2S)-2-{[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-{[(1,5-dihydroxy-4-oxo-1,4-dihydropyridin-2-yl)methoxy]imino}acetyl]amino}-3-oxopropyl]oxy}imino)pentanedioic acid) [Pseudomonas aeruginosa PA1R] &gt;pdb|4OOM|A Crystal structure of PBP3 in complex with BAL30072 ((2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-{[(1,5-dihydroxy-4-oxo-1,4-dihydropyridin-2-yl)methoxy]imino}-N-{(2S)-1-hydroxy-3-methyl-3-[(sulfooxy)amino]butan-2-yl}ethanamide) [Pseudomonas aeruginosa PA1R] &gt;pdb|4WEJ|A Crystal structure of Pseudomonas aeruginosa PBP3 with a R4 substituted allyl monocarbam [Pseudomonas aeruginosa PA14] &gt;pdb|4WEL|A Crystal structure of Pseudomonas aeruginosa PBP3 with SMC-3176 [Pseudomonas aeruginosa PA14] &gt;pdb|6VJE|A Crystal structure of Pseudomonas aeruginosa penicillin-binding protein 3 (PBP3) complexed with ceftobiprole [Pseudomonas aeruginosa] &gt;pdb|6VOT|A Crystal structure of Pseudomonas aerugonisa PBP3 complexed to gamma-lactam YU253434 [Pseudomonas aeruginosa] &gt;pdb|7JWL|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa] &gt;pdb|7LC4|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa] &gt;pdb|7LY1|A Chain A, Peptidoglycan D,D-transpeptidase FtsI [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>3PBN_A</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.06638e-14</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|4BJP|A</Hit_id>
+  <Hit_def>Crystal structure of E. coli penicillin binding protein 3 [Escherichia coli]</Hit_def>
+  <Hit_accession>4BJP_A</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.13329e-14</Hsp_evalue>
+      <Hsp_query-from>211</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>440</Hsp_align-len>
+      <Hsp_qseq>LRYKYKRSWVDGPMYAPVTGYSSQTYDASQLEKLE---DGILSGTDSRLFFRN------TLDMLTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGN---ATVQHAMDLSCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRADASHFPSGSKPDGTAMDAIGQ------HDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESV-VQHGTGTNAKIPGVTVGGKTGTAQH-GQDNSGLPFAWFVSYAKG-QDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>LREESRRYYPSGEVTAHLIGFTN--VDSQGIEGVEKSFDKWLTGQPGERIVRKDRYGRVIEDISSTDSQAAHNLALSIDERLQALVYRELNNAVAFNKAESGSAVLVDVNTGEVLAMANSPSYNPNNLSG--------------TPKEAMRNRTITDVFEPGSTVKPMVVMTALQRGVVRENSVLNTIPYR----------INGHEIKDVARYSELTLTGVLQKSSNVGVSKLALAMPSSALVDTYSRFGLGKATNLGLVGER----SGLYPQKQRWSDIERATFSFGYGLMVTPLQLARVYATIGSYG-IYRPLSITKVDP-----PVPGERVFPESI----VRTVVHMMESVALPGGGGVKAAIKGYRIAIKTGTAKKVGPD--GRYINKYIAYTAGVAPASQPRFALVVVINDPQAGKYYGGAVSAPVFGAIMGGVL</Hsp_hseq>
+      <Hsp_midline>LR + +R +  G + A + G+++   D+  +E +E   D  L+G       R         D+ +   +   ++  +ID ++Q   +  L N       + G+AV +D  TG +L + ++PSY+P   +G               P + M NR + + + PGST K +   TA + G  +  S +   P +          IN    +D       T+   +  S N    K+   +    L     +FG  K   + +  +     SG  P       I +      +    TPLQ+A V A I + G +  P  + +            E    +++     + +  +MESV +  G G  A I G  +  KTGTA+  G D  G     +++Y  G     Q   A+VV     +A +  GG+++AP+  A+M   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|4FSF|A</Hit_id>
+  <Hit_def>Crystal structure of Pseudomonas aeruginosa PBP3 complexed with compound 14 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>4FSF_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.1398e-14</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|4WEK|A</Hit_id>
+  <Hit_def>Crystal structure of Pseudomonas aeruginosa PBP3 with a R4 substituted vinyl monocarbam [Pseudomonas aeruginosa ATCC 14886]</Hit_def>
+  <Hit_accession>4WEK_A</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>1.15495e-14</Hsp_evalue>
+      <Hsp_query-from>373</Hsp_query-from>
+      <Hsp_query-to>1446</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>LTGKPKQGGDVVTTIDPKVQKAGFEGLGN-------KKGAAVAIDPKTGAILGLVSTPSYDPGTFAGGTKDDEKAWTALDSDPNKPMLNRALRETYPPGSTFKLVTAATAFETGKYQSPSDVTDTPDQYILPGTSTPLINASPTEDCGNATVQHAMDL------SCNTVFGKMGAELGGDKLRAQAEKFGFNKEVTIPIRAD-ASHFPSGSK-PDG-TAMDAIGQHDTRATPLQMAMVAAAIANNGSLMEPYLVAQEGSAGNVISTHTEHQLSQAVSPATAQKLQQLMESVVQHGTGT-NAKIPGVTVGGKTGTAQH-------GQDNSGLPFAWFVSYAKGQDGKQVAVAVVVEDGSSEAQQISGGSLAAPIAKAMMQAAL</Hsp_qseq>
+      <Hsp_hseq>VTKNAKPGKTLALSIDLRLQYLAHRELRNALLENGAKAGSLVIMDVKTGEILAMTNQPTYNPNN----RRNLQPA----------AMRNRAMIDVFEPGSTVKPFSMSAALASGRWK-PSDIVD-----VYPGTLQ--IGRYTIRDVSRNSRQ--LDLTGILIKSSNVGISKIAFDIGAESIYSVMQQVGLGQDTGLGFPGERVGNLPNHRKWPKAETATLAYG-YGLSVTAIQLAHAYAALANDGKSVPLSMTRVDRVPDGV----------QVISPEVASTVQGMLQQVVEAQGGVFRAQVPGYHAAGKSGTARKVSVGTKGYRENAYR--SLFAGFAPATD-PRIAMVVVIDEPSKAG--YFGGLVSAPVFSKVMAGAL</Hsp_hseq>
+      <Hsp_midline>+T   K G  +  +ID ++Q      L N       K G+ V +D KTG IL + + P+Y+P       ++ + A           M NRA+ + + PGST K  + + A  +G+++ PSD+ D     + PGT    I      D    + Q  +DL      S N    K+  ++G + + +  ++ G  ++  +    +   + P+  K P   TA  A G +    T +Q+A   AA+AN+G  +   +   +     V          Q +SP  A  +Q +++ VV+   G   A++PG    GK+GTA+         ++N+    + F  +A   D  ++A+ VV+++ S       GG ++AP+   +M  AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>140212</Statistics_db-num>
+      <Statistics_db-len>37952994</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
