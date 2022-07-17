@@ -45,30 +45,40 @@ async function blast_request(){
                 headers: {"Content-type": "application/json"},
                 body: JSON.stringify({"formInput":form_data})
             });
-            let data = await response.json();
-            console.log("return data", data);
+            
+            // get blast data
+            let blastData = await response.json();
+            console.log("data received", blastData);
+
+            // extract relevant fields
+            let rowData = getRowData(blastData)
+            console.log("row data ready", rowData);
+
+            // load data to table
+            $('#table').bootstrapTable('load', rowData)
+            console.log("data loaded to table")
         } catch (error){
             console.log(error)
         }
     } else {
-        console.log("does not validate");
+        console.log("Input does not validate");
         $('#exampleModal').modal('show')
     }
 }
 
+function getRowData(input){
+    n = input['data'].length
+    data = input['data']
+    console.log(input)
+    rows = []
 
-async function blast_request_old(){
-    let form_data = document.getElementById("sequence_input").value
-    try{
-        let response = await fetch(
-            'http://localhost:8000/', {
-            method: 'PUT',
-            headers: {"Content-type": "application/json"},
-            body: JSON.stringify({"formInput":form_data})
-        });
-        let data = await response.json();
-        console.log("return data", data);
-    } catch (error){
-        console.log(error)
+    for (var i = 0; i<n; i++){
+        rows.push({
+            id: data[i]['Hit_id'],
+            def: data[i]['Hit_def'],
+            acc: data[i]['Hit_accession']
+        })
     }
+
+    return rows
 }
