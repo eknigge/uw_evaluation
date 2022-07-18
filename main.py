@@ -37,9 +37,7 @@ async def root(form_value: Data):
 
 
 def get_blast_data(user_input: str) -> dict:
-    # temporary comment for speed of testing
-    """
-    result = bb.qblast("blastx", "pdbaa", test_sequence, format_type='XML')
+    result = bb.qblast("blastn", "nt", user_input, format_type='XML')
     
     # write blast result to xml file
     with open('query_result.xml', 'w') as output_file:
@@ -50,14 +48,8 @@ def get_blast_data(user_input: str) -> dict:
     with open('query_result.xml', 'r') as file:
         xml_file = file.read()
     query_dict = xmltodict.parse(xml_file)
-
-    return query_dict
-    """
-    with open('query_result.xml', 'r') as file:
-        xml_file = file.read()
-    query_dict = xmltodict.parse(xml_file)
-    temp = {'data': query_dict['BlastOutput']['BlastOutput_iterations']['Iteration']['Iteration_hits']['Hit']}
-    return temp
+    output = {'data': query_dict['BlastOutput']['BlastOutput_iterations']['Iteration']['Iteration_hits']['Hit']}
+    return output
 
 
 def main():

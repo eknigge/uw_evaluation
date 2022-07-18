@@ -55,7 +55,7 @@ async function blast_request(){
             console.log("row data ready", rowData);
 
             // load data to table
-            $('#table').bootstrapTable('load', rowData)
+            $('#table').bootstrapTable({data: rowData})
             console.log("data loaded to table")
         } catch (error){
             console.log(error)
